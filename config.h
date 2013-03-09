@@ -11,13 +11,12 @@ static const char selbordercolor[]  = "#111111";
 static const char selbgcolor[]      = "#111111";
 static const char selfgcolor[]      = "#ffffff";
 
-static const unsigned int gappx     = 6;        /* gap pixel between windows */
 static const unsigned int borderpx  = 2;        /* border pixel of windows */
 static const unsigned int snap      = 16;       /* snap pixel */
 static const unsigned int systrayspacing = 2;   /* systray spacing */
-static const Bool showsystray       = True;     /* False means no systray */
-static const Bool showbar           = True;     /* False means no bar */
-static const Bool topbar            = True;     /* False means bottom bar */
+static const Bool showsystray       = True;     /* toggle systray */
+static const Bool showbar           = True;     /* toggle bar */
+static const Bool topbar            = True;     /* toggle bar location */
 
 /* tagging */
 static const char *tags[] = { "1", "2", "3", "4", "5"};
