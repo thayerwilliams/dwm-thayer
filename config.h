@@ -1,7 +1,7 @@
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
-static const char font[]            = "Sans:Bold:size=11:autohint=true";
+static const char font[]            = "Sans:Bold:size=10:autohint=true";
 //static const char font[]            = "-*-terminus-medium-r-*-*-16-*-*-*-*-*-*-*";
 //static const char font[]            = "-misc-fixed-medium-r-*-*-12-*-*-*-*-60-iso10646-1";
 static const char normbordercolor[] = "#aaaaaa";
