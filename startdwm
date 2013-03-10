@@ -6,7 +6,7 @@
 # Usage:    killall dwm         # restart dwm on-the-fly
 #           killall startdwm    # kill X session
 
-dwm_dir=${HOME}/.dwm-6.0
+dwm_dir=${HOME}/.dwm
 
 conky -c ${dwm_dir}/conkyrc | while read line; do
     xsetroot -name "$line"; 
